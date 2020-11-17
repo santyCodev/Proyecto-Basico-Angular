@@ -9,8 +9,9 @@ export class AppComponent {
   title = 'ProyectoAngular';
 
   nombre = 'Rodriguez Pablo';
-  edad = 40;
+  edad = 7;
   email = 'rpablo@gmail.com';
+
   sueldos = [1700, 1600, 1900];
   activo = true;
   sitio='http://www.google.com';
