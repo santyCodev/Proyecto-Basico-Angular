@@ -45,4 +45,11 @@ export class AppComponent {
   decrementar() {
     this.contador--;
   }
+
+  /**
+   * La directiva ngModel 
+   */
+
+  nombre2='';
+  apellido='';
 }
