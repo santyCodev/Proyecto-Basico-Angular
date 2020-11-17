@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  /*
+    Interpolacion, gIf -else y ngFor
+  */
   title = 'ProyectoAngular';
 
   nombre = 'Rodriguez Pablo';
@@ -28,5 +31,18 @@ export class AppComponent {
     for(let x=0; x<this.sueldos.length; x++)
       suma+=this.sueldos[x];
     return suma;
+  }
+
+  /**
+   * Captura de eventos 
+   */
+  contador = 1;
+
+  incrementar() {
+    this.contador++;
+  }
+
+  decrementar() {
+    this.contador--;
   }
 }

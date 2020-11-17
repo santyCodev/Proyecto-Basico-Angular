@@ -29,3 +29,10 @@
     </table>
   <ng-template #menor><p>Es un menor de edad.</p></ng-template> 
 </div>
+
+<div>
+  <h2> Contador con eventos de boton </h2>
+  <p>{{contador}}</p>
+  <button (click)="incrementar()">Sumar 1</button>
+  <button (click)="decrementar()">Restar 1</button>
+</div>
